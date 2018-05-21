@@ -220,7 +220,7 @@ PRODUCT_PACKAGES += \
 
 # IPv6 tethering
 PRODUCT_PACKAGES += \
-    ebtables \
+#    ebtables \
 #    ethertypes
 
 # IRQ
