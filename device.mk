@@ -41,7 +41,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
 #   device/motorola/payton/audio/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.xml \
-
     device/motorola/payton/audio/audio_policy.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy.conf \
     device/motorola/payton/audio/audio_ext_spkr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_ext_spkr.conf \
     device/motorola/payton/audio/audio_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info.xml \
@@ -72,7 +71,6 @@ PRODUCT_PACKAGES += \
 # Camera
 PRODUCT_COPY_FILES += \
 #   device/motorola/payton/configs/camera/camera_config.xml:/system/etc/camera/camera_config.xml \
-
     device/motorola/payton/configs/camera/imx386_chromatix.xml:/system/etc/camera/imx386_chromatix.xml \
     device/motorola/payton/configs/camera/imx386_mono_chromatix.xml:/system/etc/camera/imx386_mono_chromatix.xml \
     device/motorola/payton/configs/camera/mot_ov5695_chromatix.xml:/system/etc/camera/mot_ov5695_chromatix.xml
@@ -374,7 +372,7 @@ PRODUCT_COPY_FILES += \
 
 # Sensors
 PRODUCT_COPY_FILES += \
-#    device/motorola/payton/configs/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf \
+#   device/motorola/payton/configs/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf \
     device/motorola/payton/configs/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
 
 PRODUCT_PACKAGES += \
