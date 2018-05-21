@@ -125,6 +125,8 @@ WITH_LINEAGE_CHARGER := false
 #SF_VSYNC_EVENT_PHASE_OFFSET_NS := 6000000
 #TARGET_HAS_HDR_DISPLAY := true
 #TARGET_HAS_WIDE_COLOR_DISPLAY := true
+SRC_DISPLAY_HAL_DIR := hardware/qcom/display-caf/msm8998
+SRC_MEDIA_HAL_DIR := hardware/qcom/media-caf/msm8998
 
 # GPS
 #TARGET_NO_RPC := true
