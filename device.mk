@@ -71,7 +71,8 @@ PRODUCT_PACKAGES += \
 
 # Camera
 PRODUCT_COPY_FILES += \
-#    device/motorola/payton/configs/camera/camera_config.xml:/system/etc/camera/camera_config.xml \
+#   device/motorola/payton/configs/camera/camera_config.xml:/system/etc/camera/camera_config.xml \
+
     device/motorola/payton/configs/camera/imx386_chromatix.xml:/system/etc/camera/imx386_chromatix.xml \
     device/motorola/payton/configs/camera/imx386_mono_chromatix.xml:/system/etc/camera/imx386_mono_chromatix.xml \
     device/motorola/payton/configs/camera/mot_ov5695_chromatix.xml:/system/etc/camera/mot_ov5695_chromatix.xml
