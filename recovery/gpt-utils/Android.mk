@@ -16,6 +16,8 @@
 
 LOCAL_PATH := $(call my-dir)
 
+include $(all-subdir-makefiles)
+
 include $(CLEAR_VARS)
 LOCAL_SRC_FILES := gpt-utils.cpp
 ifeq ($(TARGET_COMPILE_WITH_MSM_KERNEL),true)
